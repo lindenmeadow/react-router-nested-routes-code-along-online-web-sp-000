@@ -4,7 +4,9 @@ const MovieShow = props => {
 
   return (
     <div>
-      <h3>Movies Show Component!</h3>
+    <div>
+    <h3>{ movies[match.params.movieId].title }</h3>
+  </div>
     </div>
   );
 }

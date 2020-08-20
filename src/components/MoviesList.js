@@ -9,3 +9,5 @@ const MoviesList = ({ movies }) => {
     </div>
   );
 };
+
+export default MoviesList;
